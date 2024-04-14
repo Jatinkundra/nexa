@@ -1,0 +1,190 @@
+
+
+Teachers :
+{
+	name : 'teacher_name',
+	courses :  [{
+            title: 'CSS for Designers',
+            studentsEnrolled: '52',
+            dailyAttendance: '90%',
+            likeScore: 92,
+			course_rating:4.2,
+			description :"Students enjoyed the course quite well . They were interactive more in the first half than the second half"
+			students_data: [
+            {
+                "ID": "PRE2209",
+                "Name": "John Smith",
+                "Marks": "1185",
+                "Attendence": "98%",
+                "Percentage": "98%",
+            },
+            {
+                "ID": "PRE1245",
+                "Name": "Jolie Hoskins",
+                "Marks": "1195",
+                "Attendence": "98%",
+                "Percentage": "99.58%",
+            },
+            {
+                "ID": "PRE1625",
+                "Name": "Pennington Joy",
+                "Marks": "1196",
+                "Attendence": "98%",
+                "Percentage": "99.67%",
+            },
+            {
+                "ID": "PRE2516",
+                "Name": "Millie Marsden",
+                "Marks": "1187",
+                "Attendence": "98%",
+                "Percentage": "98.2%",
+            },
+            {
+                "ID": "PRE2209",
+                "Name": "John Smith",
+                "Marks": "1185",
+                "Attendence": "98%",
+                "Percentage": "98%",
+            },
+        ]
+        }, 
+		{
+            title: 'CSS for Designers',
+            studentsEnrolled: '5,223',
+            dailyAttendance: '95%',
+            likeScore: 96,
+            course_by:'teacher_name',
+			students: [
+            {
+                "ID": "PRE2209",
+                "Name": "John Smith",
+                "Marks": "1185",
+                "Attendence": "98%",
+                "Percentage": "98%",
+            },
+            {
+                "ID": "PRE1245",
+                "Name": "Jolie Hoskins",
+                "Marks": "1195",
+                "Attendence": "98%",
+                "Percentage": "99.58%",
+            },
+            {
+                "ID": "PRE1625",
+                "Name": "Pennington Joy",
+                "Marks": "1196",
+                "Attendence": "98%",
+                "Percentage": "99.67%",
+            },
+            {
+                "ID": "PRE2516",
+                "Name": "Millie Marsden",
+                "Marks": "1187",
+                "Attendence": "98%",
+                "Percentage": "98.2%",
+            },
+            {
+                "ID": "PRE2209",
+                "Name": "John Smith",
+                "Marks": "1185",
+                "Attendence": "98%",
+                "Percentage": "98%",
+            },
+        ]
+        },
+		{
+            title: 'CSS for Designers',
+            studentsEnrolled: '5,223',
+            dailyAttendance: '75%',
+            likeScore: 86,
+            course_by:'teacher_name'
+        },
+		{
+            title: 'CSS for Designers',
+            studentsEnrolled: '5,223',
+            dailyAttendance: '90%',
+            likeScore: 91,
+            course_by:'teacher_name'
+        }]
+
+
+}
+
+
+
+
+
+
+Students : 
+{
+        name: 'John Smith',
+        teacher: 'teacher_name',
+        courses_inprogress: ['course3'],
+        courses_completed: ['course1','course2'],
+        skills_acquired: ['skill1','skill2'],
+        retention_rate: 87,
+        percentile: 93.5,
+        total_quizzes: 24,
+        quizzes_attempted: [
+            {
+                title : 'title of the quiz',
+                subject :'subject here',
+                passing_percentage : 80,
+                scored_percentage : 92,
+                date : '25/09/2021',
+                time : "12:00 AM - 02:00 AM"
+                },
+                {
+                title : 'title of the quiz2',
+                subject :'subject here2',
+                passing_percentage : 80,
+                scored_percentage : 92,
+                date : '25/09/2021',
+                time : "12:00 AM - 02:00 AM"
+                }
+                
+        
+        ],
+        passed: 2,
+    }
+	
+campaigns
+{
+	{
+		title:'title1',
+		amount:50,
+		started_by:'abc',
+		started_for:'xyz',
+		institute:'abc institute',
+		description:'descrption',
+		type:'crowdfunded_projects'
+	},
+	{
+		title:'title2',
+		amount:50,
+		started_by:'abc',
+		started_for:'xyz',
+		institute:'abc institute',
+		description:'descrption',
+		type:'crowdfunded_projects'
+	},
+	
+	{
+		title:'title1',
+		amount:50,
+		started_by:'abc',
+		started_for:'xyz',
+		institute:'abc institute',
+		description:'descrption',
+		type:'scholarship_pool'
+	},
+	{
+		title:'title2',
+		amount:50,
+		started_by:'abc',
+		started_for:'xyz',
+		institute:'abc institute',
+		description:'descrption',
+		type:'scholarship_pool'
+	}
+}
